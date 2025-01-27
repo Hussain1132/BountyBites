@@ -1,2 +1,2 @@
 # BountyBites
-A food delivery app door - door
+A food delivery app door to door
