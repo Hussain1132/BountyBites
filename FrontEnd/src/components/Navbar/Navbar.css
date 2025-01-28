@@ -5,7 +5,11 @@
     align-items: center;
 }
 .navbar .logo{
+<<<<<<< HEAD
     width: 150px;
+=======
+    width: 250px;
+>>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
 }
 .navbar-menu{
     display: flex;
@@ -13,13 +17,22 @@
     gap: 20px;
     color: #49557e;
     font-size: 18px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
 }
 .navbar-right{
     display: flex;
     align-items: center;
     gap: 40px;
+<<<<<<< HEAD
 }
 
+=======
+
+}
+>>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
 .navbar button{
     background: transparent;
     font-size: 16px;
@@ -28,4 +41,32 @@
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: #fff4f2;
+
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.navbar li{
+    cursor: pointer;
+}
+.navbar-search-icon{
+    position: relative;
+
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+>>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
 }
