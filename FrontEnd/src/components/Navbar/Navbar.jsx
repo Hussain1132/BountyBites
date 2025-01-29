@@ -1,13 +1,13 @@
-<<<<<<< HEAD
+
 import React from 'react'
-=======
+
 import React, { useState } from 'react'
->>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
+
 import './Navbar.css'
 import { assets } from '../../assets/assets'
 
 const Navbar = () => {
-<<<<<<< HEAD
+
   return (
     <div className='navbar'>
      < img src={assets.logo} alt="" className="logo" />
@@ -26,7 +26,7 @@ const Navbar = () => {
           <button >sign in</button>
         </div>
     
-=======
+
     const [menu,setMenu]=useState("home")
   return (
     <div className='navbar'>
@@ -48,13 +48,11 @@ const Navbar = () => {
             <button>sign in</button>
         </div>
 
->>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
+
     </div>
   )
 }
 
-<<<<<<< HEAD
+
 export default Navbar
-=======
-export default Navbar
->>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
+
