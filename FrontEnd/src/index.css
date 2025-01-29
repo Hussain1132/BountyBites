@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 *{
   padding: 0;
-<<<<<<< HEAD
-  margin: 0;
-=======
   margin:0;
->>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
   box-sizing: border-box;
   font-family: Outfit;
 }
 body{
   min-height: 100vh;
-<<<<<<< HEAD
-=======
-
->>>>>>> 48dd8956afd8c694336fb6238adbd6e1dd4e0077
 }
 a{
   text-decoration: none;
