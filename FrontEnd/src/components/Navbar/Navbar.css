@@ -60,3 +60,23 @@
     right: -8px;
 
 }
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .navbar-search-icon img {
+    animation: float 2s infinite ease-in-out;
+  }
+  @keyframes jelly {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.1, 0.9); }
+    50% { transform: scale(0.9, 1.1); }
+    75% { transform: scale(1.05, 0.95); }
+  }
+  
+  .logo {
+    animation: jelly 2.5s infinite ease-in-out;
+  }
+
+  

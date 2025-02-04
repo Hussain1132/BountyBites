@@ -1,5 +1,10 @@
 import React from 'react'
 import './Header.css'
+import { assets } from '../../assets/assets'
+
+
+
+
 
 const Header = () => {
   return (
@@ -12,6 +17,7 @@ const Header = () => {
             leave the house—let us bring the food to you.</p>
             <button>View Menu</button>
         </div>
+        <img src={assets.deliveryLogo} alt="Logo" className="header-logo" />
     </div>
   )
 }

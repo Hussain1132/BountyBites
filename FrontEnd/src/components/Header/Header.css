@@ -35,3 +35,30 @@
     border-radius: 50px;
 
 }
+.header-logo {
+    position: absolute;
+    bottom: 0.5%;
+    right: 1%;
+    width: 250px; /* Adjust size */
+    height: auto;
+    opacity: 0.9; /* Slight transparency */
+    animation: bike-tilt 2s ease-in-out infinite; /* Apply the tilt animation */
+}
+
+@keyframes bike-tilt {
+    0% {
+        transform: rotate(0deg); /* Start in neutral position */
+    }
+    25% {
+        transform: rotate(5deg); /* Tilt up slightly from the front */
+    }
+    50% {
+        transform: rotate(0deg); /* Return to neutral */
+    }
+    75% {
+        transform: rotate(-5deg); /* Tilt down slightly from the back */
+    }
+    100% {
+        transform: rotate(0deg); /* Return to neutral */
+    }
+}
