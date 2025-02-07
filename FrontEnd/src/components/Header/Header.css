@@ -39,7 +39,7 @@
     position: absolute;
     bottom: 0.5%;
     right: 1%;
-    width: 250px; /* Adjust size */
+    width: max(16vw, 100px); /* Adjust size */
     height: auto;
     opacity: 0.9; /* Slight transparency */
     animation: bike-tilt 2s ease-in-out infinite; /* Apply the tilt animation */
@@ -60,5 +60,34 @@
     }
     100% {
         transform: rotate(0deg); /* Return to neutral */
+    }
+}
+
+@media (max-width:1050px){
+    .header-contents{
+        max-width: 45%;
+    }
+    .header-logo {
+        width: max(10vw, 90px); /* Smaller on tablets */
+        right: 3%;
+        bottom: 3vw;
+    }
+}
+@media (max-width:750px){
+    
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+    .header-contents p {
+        display: none !important; /* Paragraph gayab */
+    }
+    .header-logo {
+        display: none !important; /* Logo gayab */
     }
 }
