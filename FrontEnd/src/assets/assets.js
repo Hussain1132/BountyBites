@@ -10,6 +10,8 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+import menu_9 from './menu_9.png'
+import menu_10 from './menu_10.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -43,6 +45,15 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import food_33 from './food_33.png'
+import food_34 from './food_34.png'
+import food_35 from './food_35.png'
+import food_36 from './food_36.png'
+import food_37 from './food_37.png'
+import food_38 from './food_38.png'
+import food_39 from './food_39.png'
+import food_40 from './food_40.png'
+
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -116,7 +127,16 @@ export const menu_list = [
     {
         menu_name: "Noodles",
         menu_image: menu_8
-    }]
+    },
+    {
+        menu_name: "Biryani",
+        menu_image: menu_9
+    },
+    {
+        menu_name: "Chicken",
+        menu_image: menu_10
+    }
+    ]
 
 export const food_list = [
     {
@@ -348,5 +368,75 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
+    },
+    {
+        _id: "33",
+        name: "Hyderabadi Biryani",
+        image: food_33,
+        price: 21,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Biryani"
+    }
+    ,
+    {
+        _id: "34",
+        name: "MoradaBadi Biryani",
+        image: food_34,
+        price: 19,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Biryani"
+    }
+    ,
+    {
+        _id: "35",
+        name: "Kolkata Biryani",
+        image: food_35,
+        price: 19,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Biryani"
+    }
+    ,
+    {
+        _id: "36",
+        name: "Dum Biryani",
+        image: food_36,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Biryani"
+    }
+    ,
+    {
+        _id: "37",
+        name: "Chicken Hyderabadi",
+        image: food_37,
+        price: 24,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Chicken"
+    }
+    ,
+    {
+        _id: "38",
+        name: "Kadhai Chicken",
+        image: food_38,
+        price: 22,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Chicken"
+    }
+    ,
+    {
+        _id: "39",
+        name: "Handi Chicken",
+        image: food_39,
+        price: 23,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Chicken"
+    },
+    {
+        _id: "40",
+        name: "Chicken Rezala",
+        image: food_40,
+        price: 25,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Chicken"
     }
 ]
