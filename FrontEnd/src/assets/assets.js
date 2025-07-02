@@ -128,12 +128,12 @@ export const menu_list = [
         menu_name: "Noodles",
         menu_image: menu_8
     },
+    // {
+    //     menu_name: "Biryani",
+    //     menu_image: menu_9
+    // },
     {
-        menu_name: "Biryani",
-        menu_image: menu_9
-    },
-    {
-        menu_name: "Chicken",
+        menu_name: "Non-Veg",
         menu_image: menu_10
     }
     ]
