@@ -29,7 +29,7 @@ const Verify = () => {
 
       if (response.data.success) {
         setCartItems({}); // cart khali kar do
-        navigate('/home');
+        navigate('/myorders');
       } else {
         navigate('/');
       }
