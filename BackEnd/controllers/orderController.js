@@ -10,7 +10,7 @@ const razorpay = new Razorpay({
 
 // placing user order from frontend
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:5173";
+  const frontend_url = "https://bountybites-frontend.onrender.com/";
 
   try {
     const newOrder = new orderModel({
