@@ -3,6 +3,8 @@ import './Verify.css';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
+import { toast } from 'react-toastify';
+
 
 const Verify = () => {
   const [searchParam] = useSearchParams();
@@ -29,7 +31,10 @@ const Verify = () => {
 
       if (response.data.success) {
         setCartItems({}); // cart khali kar do
+        
         navigate('/myorders');
+        toast.success("Order Placed")
+        
       } else {
         navigate('/');
       }
